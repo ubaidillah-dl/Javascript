@@ -23,7 +23,7 @@ if (tanya == true) {
       hasil = " hasilnya SERI";
     } else if (pemain == "gajah") {
       // ini pake operator ternary
-      hasil = komputer == "orang" ? " kamu MENANG" : "kamu KALAH";
+      hasil = komputer == "orang" ? " kamu MENANG" : " kamu KALAH";
     } else if (pemain == "orang") {
       if (komputer == "gajah") {
         hasil = " kamu KALAH";
